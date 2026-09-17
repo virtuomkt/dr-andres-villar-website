@@ -55,3 +55,15 @@ document.querySelectorAll("[data-whatsapp]").forEach((link) => {
 
 window.addEventListener("scroll", updateHeader, { passive: true });
 updateHeader();
+
+// The native named group also works without JavaScript. Keep a fallback for
+// browsers that do not yet implement exclusive <details> groups.
+const faqItems = document.querySelectorAll('.faq__list details');
+faqItems.forEach((item) => {
+  item.addEventListener('toggle', () => {
+    if (!item.open) return;
+    faqItems.forEach((other) => {
+      if (other !== item) other.open = false;
+    });
+  });
+});

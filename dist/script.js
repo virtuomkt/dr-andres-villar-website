@@ -46,7 +46,6 @@ document.querySelectorAll("[data-whatsapp]").forEach((link) => {
     return;
   }
 
-  link.setAttribute("aria-label", `${link.textContent.trim()} (demostración)`);
   link.addEventListener("click", (event) => {
     event.preventDefault();
     showDemoNotice();

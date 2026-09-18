@@ -22,11 +22,11 @@ Edita `SITE_CONFIG` al inicio de `dist/script.js`:
 
 Mientras `demo` sea `true`, todos los botones muestran un aviso y no abren ningún contacto.
 
-## Actualizar contenido provisional
+## Actualizar contenido pendiente
 
 - Las cédulas aparecen en la sección de trayectoria y en el pie de página de `dist/index.html`.
-- El precio provisional está en la sección de preguntas.
-- Los tres testimonios están marcados como contenido de muestra en `dist/index.html`.
+- El precio actual está en la sección de preguntas.
+- Los tres testimonios están en `dist/index.html`.
 - La dirección controla tanto el texto como el mapa y el enlace de indicaciones.
 
 ## Publicación

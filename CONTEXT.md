@@ -24,4 +24,4 @@ Landing estática independiente de GoHighLevel para presentar de forma breve los
 - Confirmación de precio de consulta, dirección y cifras de trayectoria.
 - Video del doctor para una posible actualización del hero.
 
-La versión de revisión identifica los datos provisionales y evita abrir WhatsApp con un número ficticio.
+La versión de revisión mantiene desactivado el enlace de WhatsApp hasta recibir el número definitivo, sin mostrar etiquetas de contenido provisional en la interfaz.

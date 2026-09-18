@@ -43,6 +43,7 @@ button,a{-webkit-tap-highlight-color:transparent}
 .button--small{min-height:42px;padding:9px 18px;background:transparent;border-color:rgba(255,255,255,.65);font-size:.88rem}
 .button--small:hover{background:var(--gold);border-color:var(--gold);color:var(--navy)}
 .is-scrolled .button--small{background:var(--navy);border-color:var(--navy)}
+.is-scrolled .button--small:hover{background:var(--gold);border-color:var(--gold);color:var(--navy-deep)}
 .button--gold{background:var(--gold);border-color:var(--gold);color:var(--navy-deep)}
 .button--gold:hover{background:var(--gold-light);border-color:var(--gold-light);box-shadow:0 10px 30px rgba(0,0,0,.18)}
 .button svg{width:20px;fill:currentColor}
@@ -126,7 +127,7 @@ button,a{-webkit-tap-highlight-color:transparent}
 .footer__main{display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:40px;align-items:start}
 .footer__main>img{width:280px;max-width:100%;height:auto;object-fit:contain;opacity:.92}
 .footer__main p{margin:0;font-size:.88rem}
-.footer__credentials span{display:block;margin-bottom:8px;color:var(--gold-light);font-size:.68rem;text-transform:uppercase;letter-spacing:.1em}
+.footer__practice span,.footer__credentials span{display:block;margin-bottom:8px;color:var(--gold-light);font-size:.68rem;text-transform:uppercase;letter-spacing:.1em}
 .footer__legal{display:flex;justify-content:space-between;gap:30px;margin-top:45px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);font-size:.75rem}
 .footer__legal p{margin:0}
 
@@ -151,7 +152,7 @@ button,a{-webkit-tap-highlight-color:transparent}
   .review-grid{grid-template-columns:1fr}
   .location{grid-template-columns:1fr 1fr}
   .footer__main{grid-template-columns:1fr 1fr}
-  .footer__credentials{grid-column:2}
+  .footer__credentials{grid-column:1/-1}
 }
 
 @media (max-width:720px){
